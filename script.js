@@ -1,7 +1,7 @@
 const display = document.getElementById('display');
 const botoes = document.querySelectorAll('.btn');
 
-let expressao = ''; 
+let expressao = '';
 
 botoes.forEach((botao) => {
   botao.addEventListener('click', () => {
