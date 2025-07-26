@@ -1,5 +1,5 @@
 # simple-calculator
-Este é um projeto de uma calculadora simples feito com HTML, CSS e JavaScript, com foco no apredizado.
+Este é um projeto de uma calculadora simples feito com **HTML, CSS e JavaScript**, com foco no apredizado.
 
 ## Funcionalidades
 - Soma, Subtração, Multiplicação e Divisão
