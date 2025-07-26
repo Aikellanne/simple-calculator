@@ -1,7 +1,7 @@
 const display = document.getElementById('display');
 const botoes = document.querySelectorAll('.btn');
 
-let expressao = ''; // onde a operação será montada
+let expressao = ''; 
 
 botoes.forEach((botao) => {
   botao.addEventListener('click', () => {
@@ -17,7 +17,7 @@ botoes.forEach((botao) => {
           expressao.replace(/x/g, '*').replace(/÷/g, '/')
         );
         display.textContent = resultado;
-        expressao = resultado.toString(); // permite continuar operando depois
+        expressao = resultado.toString(); 
 
       } catch {
         display.textContent = 'Erro';
